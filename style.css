@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-color: coral;
-}
-
 .nav{ 
     display: flex;
     padding: 10px 10px;
@@ -16,7 +12,9 @@
 }
 
 .header__logo{
+    margin: 10px;
     width: 100px;
+    max-width: 100%; 
 }
 
 .menu{
@@ -37,11 +35,32 @@
 /* DESCRIPCION */
 
 .descripcion{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/19/e4/e0/3e/nossa-parrilla-dando.jpg);
+    background-image: url(https://anroca1.cdn.net.ar/252/anroca/images/01/58/64/1586445_8097772605fc6c9a2751d5ba8ddc7cefa6a3d3ea3652a05113b94fc5ced94215/lg.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 700px;
+    overflow: hidden;
+}
+
+.titulo{
+    padding: 60px;
+    display: flex;
+    justify-content: left;
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+    color:lightgoldenrodyellow;
+}
+
+.titulo__1{
+    padding: 1px 30px 20px 250px;
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+    color: lightgoldenrodyellow;
 }
 
 /* OPINIONES */
@@ -64,4 +83,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar-light ul li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.35rem;
+    text-decoration: underline;
+
 }
