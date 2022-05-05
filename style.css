@@ -41,12 +41,13 @@
 /* DESCRIPCION */
 
 .descripcion{
-    background-image: url(https://anroca1.cdn.net.ar/252/anroca/images/01/58/64/1586445_8097772605fc6c9a2751d5ba8ddc7cefa6a3d3ea3652a05113b94fc5ced94215/lg.webp);
+    background-image: url(https://www.gotrendy.com.mx/wp-content/uploads/2019/11/Festival-Parrilla-y-Vino.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 700px;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .titulo{
@@ -118,8 +119,9 @@
 }
 
 .carousel-inner img{
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     height: 900px;
+    max-width: 100%;
    }
 
 /* FOOTER */
@@ -140,4 +142,65 @@
 
 .mapa{
     padding: 30px;
+}
+
+/* NOSOTROS */
+
+.historia__padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.historia__img{
+    max-width: 100%;
+    height: 500px;
+    width: 600px;
+}
+
+.historia{
+    padding: 60px 20px 60px 40px;
+    text-align: center;
+}
+
+.historia__titulo{
+    padding: 20px;
+    background-color: #E67E22;
+}
+
+.historia__parrafo{
+    padding: 20px;
+}
+
+/* HISTORIA 1 */
+
+.historia__padre1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.historia1{
+    text-align: center;
+}
+
+.historia__parrafo{
+    padding: 20px 50px 20px 20px;
+}
+
+/* NUESTRA CARTA */ 
+
+.nuestracarta{
+    background-image: url(https://anroca1.cdn.net.ar/252/anroca/images/01/58/64/1586445_8097772605fc6c9a2751d5ba8ddc7cefa6a3d3ea3652a05113b94fc5ced94215/lg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    max-width: 100%;
 }
