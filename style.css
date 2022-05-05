@@ -31,6 +31,12 @@
     position: relative;
 }
 
+.navbar-light ul li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.35rem;
+    text-decoration: underline;
+}
+
 
 /* DESCRIPCION */
 
@@ -44,7 +50,7 @@
 }
 
 .titulo{
-    padding: 60px;
+    padding: 60px 20px 20px 60px;
     display: flex;
     justify-content: left;
     font-size: 4rem;
@@ -58,36 +64,80 @@
     display: flex;
     justify-content: left;
     font-size: 3rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     color: lightgoldenrodyellow;
 }
 
-/* OPINIONES */
+/* HORARIOS */
 
-.opiniones{
+.horarios{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.horario__titulo{
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.horario__1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    color:darkgray;
+}
+
+/* ESPECIALIDAD DE LA CASA */
+
+.especialidad{
+    padding: 60px 20px 5px 20px;
+}
+
+.especialidad__titulo{
+    justify-content: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.banderas{
     display: flex;
-    flex-direction: row;
-    overflow: hidden;
-
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 40px 20px;
 }
 
-.opiniones__1{
-    padding: 40px;
-    max-width: 33%;
+.bandera{
+    width: 150px;
+    margin: 20px;
 }
+
+.carousel-inner img{
+    padding: 10px;
+    height: 900px;
+   }
 
 /* FOOTER */
 
+.separador{
+    border-color: black;
+    height: 40px;
+    size: 40px;
+}
+
 .footer{
+    line-height: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
-.navbar-light ul li {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.35rem;
-    text-decoration: underline;
-
+.mapa{
+    padding: 30px;
 }
