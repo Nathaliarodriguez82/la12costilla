@@ -38,26 +38,40 @@
     </header>
     <form action="" method="GET">
         <fieldset>
-            <legend>RESERVAS</legend>
-            <label for="name">Nombre y apellido</label>
-            <input type="text" name="user_name" id="name" placeholder="ingresa nombre y apellido">
-            <label for="contacto">Numero de telefono</label>
-            <input type="number" name="contacto" id="contacto" placeholder="ingresa núm de telefono">
-            <label for="comensales">Comensales</label>
-            <input type="number" name="cantidaddepersonas" id="comensales" placeholder="ingresa núm de comensales">
-        </fieldset>
-        <fieldset>
-            <legend>Horario</legend>
-        <select name="user_horario" id="horario">
-            <option value="12pm">12pm</option>
-            <option value="13pm">13pm</option>
-            <option value="14pm">14pm</option>
-            <option value="20pm">20pm</option>
-            <option value="21pm">21pm</option>
-            <option value="22pm">22pm</option>
+          <legend class="formulario">RESERVAS</legend>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Comensales</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <fieldset>
+            <legend class="formulario__1">Horarios</legend>
+        <div class="horarios">
+        <select class="horarios" name="user_horario" id="horario">
+            <option class="horario" value="12pm">12pm</option>
+            <option class="horario" value="13pm">13pm</option>
+            <option class="horario" value="14pm">14pm</option>
+            <option class="horario" value="20pm">20pm</option>
+            <option class="horario" value="21pm">21pm</option>
+            <option class="horario" value="22pm">22pm</option>
         </select>
+        <div>
         </fieldset>
-        <input type="submit" value="Reservar">
+      </fieldset>
+      <div class="d-grid gap-2 d-md-block">
+        <button type="button" class="btn btn-outline-warning">RESERVAR</button>
+      </div>
     </form>
     <footer class="footer">
       <div class="maps">

@@ -204,3 +204,51 @@
     overflow: hidden;
     max-width: 100%;
 }
+
+/* Boton nuestra carta */
+
+.d-grid a button{
+    margin: 150px 50px 50px 200px;   
+}
+
+
+/* formulario */
+
+.formulario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.mb-3{
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.formulario__1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.horarios{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.d-grid button{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
