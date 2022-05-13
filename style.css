@@ -119,17 +119,17 @@
 }
 
 .carousel-inner img{
-    padding: 10px 50px 10px 50px;
-    height: 900px;
+    padding: 10px 80px 10px 80px;
+    height: 700px;
     max-width: 100%;
    }
 
 /* FOOTER */
 
 .separador{
-    border-color: black;
-    height: 40px;
-    size: 40px;
+    background-color:black;
+    height: 1px !important;
+    opacity: 0.80 !important;
 }
 
 .footer{
@@ -196,7 +196,7 @@
 /* NUESTRA CARTA */ 
 
 .nuestracarta{
-    background-image: url(https://anroca1.cdn.net.ar/252/anroca/images/01/58/64/1586445_8097772605fc6c9a2751d5ba8ddc7cefa6a3d3ea3652a05113b94fc5ced94215/lg.webp);
+    background-image: url(https://www.gotrendy.com.mx/wp-content/uploads/2019/11/Festival-Parrilla-y-Vino.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -208,7 +208,7 @@
 /* Boton nuestra carta */
 
 .d-grid a button{
-    margin: 150px 50px 50px 200px;   
+    margin: 150px 50px 50px 70px;   
 }
 
 
@@ -258,4 +258,10 @@
     
     align-items: center;
     justify-content: center;
+}
+
+.d-grid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
