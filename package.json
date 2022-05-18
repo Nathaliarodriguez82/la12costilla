@@ -1,0 +1,25 @@
+{
+  "name": "la12costilla",
+  "version": "1.0.0",
+  "description": "la1/2costilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --incluide-path scss scss/main.scss estilocss/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathaliarodriguez82/la12costilla.git"
+  },
+  "author": "nathaliarodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathaliarodriguez82/la12costilla/issues"
+  },
+  "homepage": "https://github.com/Nathaliarodriguez82/la12costilla#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
